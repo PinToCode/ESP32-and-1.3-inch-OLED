@@ -4,7 +4,7 @@ This is a simple Arduino sketch that demonstrates how to use a **1.3 inch SH1106
 
 ---
 
-## 🧰 Components Used
+## Components Used
 
 - ESP32 Development Board  
 - 1.3 inch OLED Display (SH1106 controller, 128x64 resolution)  
@@ -21,11 +21,11 @@ This is a simple Arduino sketch that demonstrates how to use a **1.3 inch SH1106
 | SCL      | GPIO 22   |
 | SDA      | GPIO 21   |
 
-> 📌 Note: These are default I2C pins for most ESP32 boards. Adjust if needed.
+>  Note: These are default I2C pins for most ESP32 boards. Adjust if needed.
 
 ---
 
-## 📦 Library Dependencies
+##  Library Dependencies
 
 Install the following libraries via Arduino Library Manager:
 
@@ -35,7 +35,7 @@ Install the following libraries via Arduino Library Manager:
 
 ---
 
-## 🧪 How It Works
+##  How It Works
 
 - Initializes the SH1106 OLED display over I2C.
 - Displays some static text on startup.
@@ -43,13 +43,13 @@ Install the following libraries via Arduino Library Manager:
 
 ---
 
-## 📁 File Included
+##  File Included
 
 - `esp32_oled_display.ino` – Main Arduino sketch
 
 ---
 
-## 🖥️ Output Preview
+##  Output Preview
 
 Hello ESP32!
 1.3 inch OLED
@@ -60,6 +60,6 @@ ESP32 OLED Test
 
 ---
 
-## 📝 License
+##  License
 
 This project is open-source and free to use under the MIT License.
